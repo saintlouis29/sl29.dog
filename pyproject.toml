@@ -55,3 +55,7 @@ test = [
     "pytest-cov",
     # Ajoutez ici d'autres dépendances de tests
 ]
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]
+pythonpath = ["src"]
