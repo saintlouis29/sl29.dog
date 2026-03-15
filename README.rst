@@ -17,14 +17,6 @@ Ce projet implémente une classe `Dog` qui représente un chien. La classe inclu
 - Des méthodes pour simuler des comportements comme aboyer (`bark`) ou mâcher (`chew`).
 - Une méthode `mate` pour simuler l'accouplement entre deux chiens et produire un chiot.
 
-Installation
-------------
-
-Pour installer le projet, utilisez la commande suivante :
-
-.. code-block:: bash
-
-   pip install .
 
 Installation(dev)
 -----------------
@@ -34,7 +26,7 @@ Pour installer le projet en mode développeur :
 .. code-block:: bash
 
 
-   pip install -e .[dev]
+   pip install -e .[dev,doc,test]
 
 
 Cas d'usage
